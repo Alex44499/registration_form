@@ -5,9 +5,9 @@
 }
 
 
-:root{
-	--
-}
+:root {
+	--adoblue: #1a202c;
+ }
 
 .main-container {
   display: flex;
