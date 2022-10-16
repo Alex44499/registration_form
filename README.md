@@ -1,6 +1,6 @@
 # REGISTRATION FORM
 
-Calculator to demonstrate basic HTML, CSS and JavaScript
+Registration form to demonstrate basic HTML, CSS and JavaScript
 
 ![](https://github.com/Alex44499/registration_form/blob/master/img/Registration_form.jpg)
 
