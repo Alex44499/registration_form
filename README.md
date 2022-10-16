@@ -6,7 +6,7 @@ Calculator to demonstrate basic HTML, CSS and JavaScript
 
 # Links
 
-- [Link to my Registration Form](https://alex44499.github.io/calculator/)
+- [Link to my Registration Form](https://alex44499.github.io/registration_form/)
 
 - [Link to the Assignment](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)
 
