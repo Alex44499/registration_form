@@ -30,10 +30,10 @@
 
 	height: 100vh;
 	/* Set hight for main container */
-	min-width: 45%;
+	min-width: 40%;
 	/* Set width for main container section */
 
-	background: url(bg1.jpg) no-repeat;
+	background: url(img/bg1.jpg) no-repeat;
 	background-size: cover;
 }
 
@@ -43,7 +43,7 @@
 	align-items: center;
 
 	font-family: 'Dancing Script', cursive;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	color: aliceblue;
 	background: var(--bg_left_side);
 	width: 100%;
@@ -69,9 +69,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 	min-width: 100%;
-	/* min-height: 20%; */
+
 
 	background: var(--bg_form);
 	box-shadow: rgba(0, 0, 0, 0.25) 0px 64px 5px,
@@ -79,7 +78,7 @@
 		rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 	margin: 10px;
-	padding: 50px 0;
+	padding:45px 0;
 }
 
 .form-title {
@@ -96,7 +95,7 @@
 	text-align: center;
 	text-transform: uppercase;
 
-	padding: 7px;
+	padding: 5px;
 	font-weight: bold;
 }
 
@@ -104,15 +103,15 @@
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
+
 }
 
 .form-inline input {
-	margin: 5px 10px 5px 0;
-	padding: 10px;
+	margin: 0px 20px 0px 30px ;
+	padding: 2px;
 	border: 1px solid #ddd;
-	margin: 0 30px;
-	font-size: 1.1rem;
-	font-weight: 600;
+	font-size: 1rem;
+	font-weight: 500;
 }
 
 
@@ -136,7 +135,8 @@ input:focus:valid {
 	font-size: 1rem;
 	color: rgb(255, 69, 100);
 	text-align: center;
-	margin-top: 15px;
+	padding-bottom: 30px;
+	/* margin-top: 5px; */
 }
 
 /** Submit-section **/
@@ -187,10 +187,18 @@ input:focus:valid {
 	}
 
 	.left-side-content {
-		height: 25vh;
+		height: 30vh;
 	}
 
 	.right-side-content {
-		height: 75vh;
+		/* height: 70vh; */
+	}
+
+
+
+
+	.form-title{
+		/* font-size: small; */
+		padding: 5px;
 	}
 }
