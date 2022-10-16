@@ -11,6 +11,11 @@ const lastNameError = document.querySelector('#last-name-error')
 const emailError = document.querySelector('#email-error')
 const telError = document.querySelector('#tel-error')
 
+
+telError.setAttribute('style', 'white-space: pre;');
+pwError.setAttribute('style', 'white-space: pre;');
+
+
 firstName.addEventListener('input', function (event) {
   if (firstName.value === '') {
     firstNameError.textContent = 'Please type in your first name.'
@@ -30,16 +35,18 @@ lastName.addEventListener('input', function (event) {
 email.addEventListener('input', function (event) {
   if (email.validity.typeMismatch) {
     emailError.textContent =
-      'Please enter in a valid email. Ex:(johnDoe@email.com)'
+      'Please enter valid email'
   } else {
     emailError.textContent = ''
   }
 })
 
+
+
 tel.addEventListener('input', function (event) {
   if (tel.validity.patternMismatch) {
     telError.textContent =
-      'Please enter 12 digit phone number. Ex:+380970920014'
+      'Valid number \r\n should include 12 numbers'
   } else {
     telError.textContent = ''
   }
@@ -54,20 +61,17 @@ pw.addEventListener('input', function (event) {
     if (regExpCap.test(currentValue)) {
       result += ''
     } else {
-      result += `Missing at least 1 capital letter. `
-      result += '\n'
+      result += 'Missing at least 1 capital letter. \r\n '
     }
 
     if (regExpDig.test(currentValue)) {
       result += ''
     } else {
-      result += 'Missing at least 1 number. '
-      result += '\n'
+      result += 'Missing at least 1 number.\r\n '
     }
 
     if (currentValue.length < 9) {
       result += 'Password must be at least 8 characters. '
-      result += '\n'
     } else {
       result += ''
     }
